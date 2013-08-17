@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+        <meta http-equiv="refresh" content="0;URL='html/pre-wedding/index.html'" />    
 
 		<!-- ==============================================
 		Title and basic Metas
@@ -48,29 +49,8 @@
 			<div class="container">
 				<div class="row">
 					<div class="span12">
-						<h1>The Big Day</h1>
-						<h2>The Big Day is a responsive one-page HTLM template, built for couples who are looking for something different then standard invitation.</h2>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<section class="templates">
-			<div class="container">
-				<div class="row">
-					<div class="span6">
-						<a href="html/pre-wedding/index.html">
-							<img src="assets/pre-wedding.png" alt="Pre Wedding">
-						</a>
-						<br>
-						<h3>Pre Wedding</h3>
-					</div>
-					<div class="span6">
-						<a href="html/post-wedding/index.html">
-							<img src="assets/post-wedding.png" alt="Post Wedding">
-						</a>
-						<br>
-						<h3>Post Wedding</h3>
+						<h1>Our Big Day's!</h1>
+						<h2>Welcome to our big day's website. You'll be redirected to the main site in a second..</h2>
 					</div>
 				</div>
 			</div>
@@ -80,7 +60,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="span12">
-						<p>Copyright &copy; 2013 by <a target="_blank" href="http://themeforest.net/user/G10v3">G10v3</a>. All rights reserved. - <a href="documentation/index.html">Documentation</a></p>
+						<p>..</p>
 					</div>
 				</div>
 			</div>

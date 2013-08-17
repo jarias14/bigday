@@ -1,0 +1,220 @@
+/*  ==============================================
+Attraction - CSS for Mobile
+============================================== */
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+	.header .span12 {
+		background: url(../images/main-nav-medium.png) bottom center no-repeat;
+	}
+
+	.about .container {
+		background: url(../images/about-container-background-medium.png) bottom center no-repeat;
+	}
+
+	.couple-story {
+		margin-top: -470px !important;
+		min-height: 600px !important;
+	}
+
+	.date .container {
+		background: url(../images/date-container-background-medium.png) center center no-repeat;
+	}
+
+	.date h1 {
+		font-size: 40px;
+		line-height: 50px;
+	}
+
+	.contact .container {
+		background: url(../images/contact-container-background-medium.png) top center no-repeat;
+	}
+
+	.contact form input {
+		width: 312px;
+	}
+
+	.contact form textarea {
+		width: 312px;
+	}
+
+	.video-iframe {
+		width: 704px;
+		height: 400px;
+	}
+
+}
+
+@media(min-width: 480px) and (max-width: 767px) {
+
+	.text-center-mobile {
+		text-align: center !important;
+	}
+	
+	.container {
+		width: 460px;
+	}
+
+	.header .span12 {
+		background: url(../images/main-nav-small.png) bottom center no-repeat;
+	}
+
+	.about .image-container {
+		margin: 0px 80px;
+	}
+
+	.about .container {
+		background: url(../images/about-container-background-small.png) bottom center no-repeat;
+		padding-bottom: 80px;
+	}
+
+	.about h2 {
+		padding-bottom: 50px;
+	}
+
+	.couple-story {
+		margin-top: 0px !important;
+		min-height: auto !important;
+		margin-bottom: 30px;
+	}
+
+	.date .container {
+		background: url(../images/date-container-background-small.png) center center no-repeat;
+	}
+
+	.date h1 {
+		font-size: 38px;
+		line-height: 48px;
+	}
+
+	.mobile-bottom {
+		margin-bottom: 30px;
+	}
+
+	.registry .registry-list {
+		margin-bottom: 20px;
+	}
+
+	.registry-list div {
+		margin-bottom: 30px;
+	}
+
+	.contact .container {
+		background: url(../images/contact-container-background-small.png) top center no-repeat;
+	}
+
+	.contact .heart {
+		margin-bottom: 0px;
+	}
+
+	.thanks .container {
+		padding-bottom: 120px;
+	}
+
+	.thanks h2 {
+		padding-bottom: 0px;
+		padding-top: 20px;
+	}
+
+	.video-iframe {
+		width: 440px;
+		height: 250px;
+	}
+
+}
+
+@media(max-width:480px) {
+
+	.text-center-mobile {
+		text-align: center !important;
+	}
+
+	.container {
+		width: 300px;
+	}
+
+	.header .span12 {
+		background: url(../images/main-nav-micro.png) bottom center no-repeat;
+	}
+
+	.header .mobile-nav select {
+		width: 180px;
+	}
+
+	.about .container {
+		background: url(../images/about-container-background-micro.png) bottom center no-repeat;
+		padding-bottom: 80px;
+	}
+
+	.about h2 {
+		padding-bottom: 50px;
+	}
+	
+	.couple-story {
+		margin-top: 0px !important;
+		min-height: auto !important;
+		margin-bottom: 30px;
+	}
+
+	.date .container {
+		background: none;
+	}
+
+	.date h1 {
+		font-size: 26px;
+		line-height: 36px;
+	}
+
+	.date h2 {
+		font-size: 20px;
+		line-height: 30px;
+	}
+
+	.date h3 {
+		font-size: 18px;
+		line-height: 28px;
+	}
+
+	.mobile-bottom {
+		margin-bottom: 30px;
+	}
+
+	.registry .registry-list {
+		margin-bottom: 20px;
+	}
+
+	.registry-list div {
+		margin-bottom: 30px;
+	}
+
+	.contact .container {
+		background: url(../images/contact-container-background-micro.png) top center no-repeat;
+	}
+
+	.contact .heart {
+		margin-bottom: 0px;
+	}
+	
+	.contact form input {
+		width: 260px;
+	}
+
+	.contact form textarea {
+		width: 260px;
+	}
+
+	.thanks .container {
+		padding-bottom: 120px;
+	}
+
+	.thanks h2 {
+		padding-bottom: 0px;
+		padding-top: 20px;
+	}
+
+	.video-iframe {
+		width: 280px;
+		height: 160px;
+	}
+
+}

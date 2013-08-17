@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<!-- ==============================================
+		Title and basic Metas
+		=============================================== -->
+		<meta charset="utf-8">
+		<title>The Big Day - Documentation</title>
+		<meta name="description" content="Attraction documentation contains a guide that will make you easier to configure the template as you want.">
+		<meta name="author" content="G10v3">
+
+		<!-- ==============================================
+		Mobile Metas
+		=============================================== -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- ==============================================
+		CSS
+		=============================================== -->
+		<link rel="stylesheet" href="css/bootstrap.min.css" /> <!-- Twitter Bootstrap -->
+		<link rel="stylesheet" href="css/bootstrap-responsive.min.css" /> <!-- Twitter Bootstrap Responsive -->
+		<link rel="stylesheet" href="css/style.css" /> <!-- Main stylesheet -->
+		<link rel="stylesheet" href="syntax-highlighter/shCore.css" /> <!-- Syntax Highlighter -->
+		<link rel="stylesheet" href="syntax-highlighter/shThemeDefault.css" /> <!-- Syntax Highlighter default theme -->
+		
+		<!--[if lt IE 9]>
+			<script src="js/html5.js"></script>
+		<![endif]-->
+
+		<!-- ==============================================
+		Fonts
+		=============================================== -->
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Shanti' rel='stylesheet' type='text/css'>
+
+		<!-- ==============================================
+		JS
+		=============================================== -->
+		<script type="text/javascript" src="js/jquery.min.js"></script> <!-- jQuery main file -->
+		<script type="text/javascript" src="js/bootstrap.min.js"></script> <!-- Bootstrap -->
+		<script type="text/javascript" src="syntax-highlighter/shCore.js"></script> <!-- Syntax Highlighter -->
+		<script type="text/javascript" src="syntax-highlighter/shBrushJScript.js"></script> <!-- Syntax Highlighter Brush -->
+		<script type="text/javascript" src="syntax-highlighter/shBrushXml.js"></script> <!-- Syntax Highlighter Xml Brush -->
+		<script type="text/javascript" src="js/documentation.js"></script> <!-- Custom JS -->
+
+		<!-- ==============================================
+		Favicons
+		=============================================== -->
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+		
+	</head>
+	<body id="top">
+
+		<!-- ==============================================
+		Navigation
+		=============================================== -->
+		<section class="nav">
+			<div class="container">
+				<div class="row">
+					<div class="span12">
+						<ul class="main-nav">
+							<li><a href="index.html" title="Home">Home</a></li>
+							<li class="nav-active"><a href="grid.html" title="Grid">Grid</a></li>
+							<li><a href="customizations.html" title="Customizations">Customizations</a></li>
+							<li><a href="support.html" title="Support">Support</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Navigation 
+		=============================================== -->
+
+		<!-- ==============================================
+		Banner
+		=============================================== -->
+		<section class="banner">
+			<div class="container">
+				<div class="row">
+					<div class="span12">
+						<h1>Documentation</h1>
+						<h4>Using The Big Day - Responsive One-Page Wedding Template</h4>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Banner 
+		=============================================== -->
+
+		<!-- ==============================================
+		Content
+		=============================================== -->
+		<section class="content">
+			<div class="container">
+
+				<div class="row title-row">
+
+					<div class="span12">
+						<h2>Grid system</h2>
+						<h5>Based on Bootstrap, a sleek, intuitive, and powerful front-end framework.</h5>
+					</div>
+
+				</div>
+
+				<div class="row">
+
+					<div class="span12">
+						<p>Bootstrap makes use of certain HTML elements and CSS properties that require the use of the HTML5 doctype. Include it at the beginning of all your projects.</p>
+						<pre class="brush: html">
+							&lt;!DOCTYPE html&gt;
+							&lt;html lang="en"&gt;
+							  ...
+							&lt;/html&gt;</pre>
+						<p>The default Bootstrap grid system utilizes 12 columns, the grid adapts to be 724px and 1170px wide depending on your viewport. Below 767px viewports, the columns stack vertically.</p>
+					</div>
+					
+				</div>
+
+				<div class="row example-row">
+					<div class="span2">2</div>
+					<div class="span4">4</div>
+					<div class="span6">6</div>
+				</div>
+
+				<div class="row example-row">
+					<div class="span5">5</div>
+					<div class="span7">7</div>
+				</div>
+
+				<div class="row example-row">
+					<div class="span3">3</div>
+					<div class="span9">9</div>
+				</div>
+
+				<div class="row example-row">
+					<div class="span12">12</div>
+				</div>
+
+				<div class="row">
+					<div class="span12">
+						<p>For a simple two column layout, create a <code>.row</code> and add the appropriate number of <code>.span*</code> columns. As this is a 12-column grid, each <code>.span*</code> spans a number of those 12 columns, and should always add up to 12 for each row (or the number of columns in the parent).</p>
+
+						<pre class="brush: html">
+							&lt;div class="row"&gt;
+							  	&lt;div class="span4"&gt;...&lt;/div&gt;
+							  	&lt;div class="span8"&gt;...&lt;/div&gt;
+							&lt;/div&gt;</pre>
+
+						<p>Given this example, we have .span4 and .span8, making for 12 total columns and a complete row.</p>
+						<p>Move columns to the right using <code>.offset*</code> classes. Each class increases the left margin of a column by a whole column. For example, <code>.offset4</code> moves <code>.span4</code> over four columns.</p>
+					</div>
+				</div>
+
+				<div class="row example-row">
+					<div class="span6">6</div>
+					<div class="span2 offset4">2 offset 4</div>
+				</div>
+
+				<div class="row example-row">
+					<div class="span4 offset1">4 offset 1</div>
+					<div class="span3 offset4">3 offset 4</div>
+				</div>
+
+				<div class="row example-row">
+					<div class="span8 offset4">8 offset 4</div>
+				</div>
+
+				<div class="row">
+					<div class="span12">
+						<pre class="brush: html">
+							&lt;div class="row"&gt;
+							  	&lt;div class="span4"&gt;...&lt;/div&gt;
+							  	&lt;div class="span4 offset2"&gt;...&lt;/div&gt;
+							&lt;/div&gt;</pre>
+					</div>
+				</div>
+
+			</div>
+		</section>
+		<!-- End Content 
+		=============================================== -->
+
+		<!-- ==============================================
+		Footer
+		=============================================== -->
+		<section class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="span12">
+						<p>Copyright &copy; 2013 by <a target="_blank" href="http://themeforest.net/user/G10v3">G10v3</a>. All rights reserved.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Footer 
+		=============================================== -->
+
+		<script>
+			SyntaxHighlighter.all();
+		</script>
+
+	</body>
+</html>

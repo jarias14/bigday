@@ -1,0 +1,258 @@
+/* ==============================================
+Resets
+============================================== */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ==============================================
+General Styles
+============================================== */
+
+body {
+	background: #0f0f0f;
+	font-size: 13px;
+	line-height: 24px;
+	color: #bebebe;
+	font-family: Verdana, Arial, sans-serif;
+}
+
+
+h1 {
+	font-family: 'Shanti', Arial, sans-serif;
+	font-size: 50px;
+	text-shadow: 1px 1px #1b1b1b;
+	margin-bottom: 20px;
+	color: #ffffff;
+}
+
+h2 {
+	font-family: 'Shanti', Arial, sans-serif;
+	color: #00b3ff;
+	font-size: 26px;
+	line-height: 36px;
+}
+
+h3 {
+	font-family: 'Shanti', Arial, sans-serif;
+	color: #ffffff;
+	font-size: 22px;
+	line-height: 32px;
+	margin-bottom: 10px;
+}
+
+h4 {
+	font-family: 'Shanti', Arial, sans-serif;
+	color: #00b3ff;
+	font-size: 20px;
+	line-height: 30px;
+	text-shadow: 1px 1px #1b1b1b;
+	margin-bottom: 20px;
+}
+
+h5 {
+	font-family: 'Shanti', Arial, sans-serif;
+	color: #bebebe;
+	font-size: 14px;
+	line-height: 28px;
+}
+
+em {
+	font-style: italic;
+}
+
+strong {
+	font-weight: bold;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+hr {
+	border: none;
+	height: 1px;
+	background: #0f0f0f;
+	box-shadow: 1px 1px #333333;
+	margin: 0;
+	padding: 0;
+	margin-bottom: 30px;
+}
+
+p {
+	margin-bottom: 20px;
+}
+
+p span {
+	color: #00b3ff;
+}
+
+ol {
+	list-style: decimal;
+}
+
+ol li span {
+	color: #00b3ff;
+}
+
+code {
+	color: #00b3ff;
+	padding: 2px 5px;
+	background: #333333;
+}
+
+.spacer {
+	width: 100%;
+	height: 30px;
+	float: left;
+}
+
+/* ==============================================
+Navigation
+============================================== */
+
+section.nav {
+	background: url(../images/nav-background.png) repeat;
+	position: fixed;
+	width: 100%;
+	z-index: 10000;
+}
+
+ul.main-nav {
+	float: right;
+}
+
+ul.main-nav li {
+	float: left;
+	border-top: 4px solid transparent;
+}
+
+ul.main-nav li a {
+	padding: 14px 30px 18px 30px;
+	display: inline-block;
+	color: #ffffff;
+	text-decoration: none;
+}
+
+ul.main-nav li a:hover {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+ul.main-nav li:hover {
+	border-top: 4px solid #00b3ff;
+}
+
+ul.main-nav li.nav-active {
+	border-top: 4px solid #00b3ff;
+}
+
+/* ==============================================
+Banner
+============================================== */
+
+section.banner {
+	height: 300px;
+	background: url(../images/banner-background.jpg) center center no-repeat;
+}
+
+section.banner .span12 {
+	margin-top: 180px;
+}
+
+/* ==============================================
+Content
+============================================== */
+
+section.content {
+	padding-top: 50px;
+	background: #1b1b1b;
+	padding-bottom: 30px;
+}
+
+.title-row {
+	padding-bottom: 50px;
+}
+
+ul.list li {
+	padding-bottom: 10px;
+}
+
+ul.list span {
+	color: #00b3ff;
+}
+
+ul.list li ul {
+	padding-top: 10px;
+}
+
+ul.list li ul li {
+	background: url(../images/icon-subfolder.png) top left no-repeat;
+	padding-left: 40px;
+}
+
+.example-row div {
+	height: 40px;
+	background: #0f0f0f;
+	display: block;
+	margin-bottom: 20px;
+	text-align: center;
+	line-height: 40px;
+}
+
+/* ==============================================
+Footer
+============================================== */
+
+.footer {
+	background: #0f0f0f;
+	padding-top: 50px;
+	padding-bottom: 30px;
+}

@@ -1,0 +1,281 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+
+		<!-- ==============================================
+		Title and basic Metas
+		=============================================== -->
+		<meta charset="utf-8">
+		<title>The Big Day - Documentation</title>
+		<meta name="description" content="Attraction documentation contains a guide that will make you easier to configure the template as you want.">
+		<meta name="author" content="G10v3">
+
+		<!-- ==============================================
+		Mobile Metas
+		=============================================== -->
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+
+		<!-- ==============================================
+		CSS
+		=============================================== -->
+		<link rel="stylesheet" href="css/bootstrap.min.css" /> <!-- Twitter Bootstrap -->
+		<link rel="stylesheet" href="css/bootstrap-responsive.min.css" /> <!-- Twitter Bootstrap Responsive -->
+		<link rel="stylesheet" href="css/style.css" /> <!-- Main stylesheet -->
+		<link rel="stylesheet" href="syntax-highlighter/shCore.css" /> <!-- Syntax Highlighter -->
+		<link rel="stylesheet" href="syntax-highlighter/shThemeDefault.css" /> <!-- Syntax Highlighter default theme -->
+		
+		<!--[if lt IE 9]>
+			<script src="js/html5.js"></script>
+		<![endif]-->
+
+		<!-- ==============================================
+		Fonts
+		=============================================== -->
+		<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+		<link href='http://fonts.googleapis.com/css?family=Shanti' rel='stylesheet' type='text/css'>
+
+		<!-- ==============================================
+		JS
+		=============================================== -->
+		<script type="text/javascript" src="js/jquery.min.js"></script> <!-- jQuery main file -->
+		<script type="text/javascript" src="js/bootstrap.min.js"></script> <!-- Bootstrap -->
+		<script type="text/javascript" src="syntax-highlighter/shCore.js"></script> <!-- Syntax Highlighter -->
+		<script type="text/javascript" src="syntax-highlighter/shBrushJScript.js"></script> <!-- Syntax Highlighter Brush -->
+		<script type="text/javascript" src="syntax-highlighter/shBrushXml.js"></script> <!-- Syntax Highlighter Xml Brush -->
+		<script type="text/javascript" src="syntax-highlighter/shBrushPhp.js"></script> <!-- Syntax Highlighter PHP Brush -->
+		<script type="text/javascript" src="js/documentation.js"></script> <!-- Custom JS -->
+
+		<!-- ==============================================
+		Favicons
+		=============================================== -->
+		<link rel="shortcut icon" href="images/favicon.ico">
+		<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+		<link rel="apple-touch-icon" sizes="72x72" href="images/apple-touch-icon-72x72.png">
+		<link rel="apple-touch-icon" sizes="114x114" href="images/apple-touch-icon-114x114.png">
+		
+	</head>
+	<body id="top">
+
+		<!-- ==============================================
+		Navigation
+		=============================================== -->
+		<section class="nav">
+			<div class="container">
+				<div class="row">
+					<div class="span12">
+						<ul class="main-nav">
+							<li><a href="index.html" title="Home">Home</a></li>
+							<li><a href="grid.html" title="Grid">Grid</a></li>
+							<li class="nav-active"><a href="customizations.html" title="Customizations">Customizations</a></li>
+							<li><a href="support.html" title="Support">Support</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Navigation 
+		=============================================== -->
+
+		<!-- ==============================================
+		Banner
+		=============================================== -->
+		<section class="banner">
+			<div class="container">
+				<div class="row">
+					<div class="span12">
+						<h1>Documentation</h1>
+						<h4>Using The Big Day - Responsive One-Page Wedding Template</h4>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Banner 
+		=============================================== -->
+
+		<!-- ==============================================
+		Content
+		=============================================== -->
+		<section class="content">
+			<div class="container">
+
+				<div class="row title-row">
+
+					<div class="span12">
+						<h2>Customizations</h2>
+						<h5>Editing has never been so easy.</h5>
+					</div>
+
+				</div>
+
+				<div class="row">
+					
+					<div class="span12">
+						<h3>Tools</h3>
+						<hr>
+						<p>The only things you need to change the template are a text editor and a browser, to see the outcome. For the text editor I recommend <a target="_blank" href="http://notepad-plus-plus.org/">Notepad++</a>, which is free.</p>
+						<div class="spacer"></div>
+						
+					</div>
+
+				</div>
+
+				<div class="row">
+
+					<div class="span3">
+						<h3>Sections</h3>
+						<hr>
+					</div>
+					<div class="span9">
+						<p>Each part of the template is organized into sections. As you can see in the HTML files, each section is independent from the others: this gives you the flexibility to copy/paste/delete sections and create your layout. As an example, the <em>Date</em> section:</p>
+
+						<pre class="brush: html">
+							&lt;!-- ==============================================
+							Date
+							=============================================== --&gt;
+							&lt;section class="date"&gt;
+								&lt;div class="line"&gt;&lt;/div&gt;
+								&lt;div class="container"&gt;
+									&lt;div class="row"&gt;
+										&lt;div class="span12 text-center heart"&gt;
+											&lt;img src="images/heart.png" alt=""&gt;
+										&lt;/div&gt;
+									&lt;/div&gt;
+									&lt;div class="row"&gt;
+										&lt;div class="span12 text-center date-text"&gt;
+											&lt;h2&gt;SAVE THE DATE&lt;/h2&gt;
+											&lt;h1&gt;SEPTEMBER 14TH, 2013&lt;/h1&gt;
+											&lt;h3&gt;4.00 PM&lt;/h3&gt;
+										&lt;/div&gt;
+									&lt;/div&gt;
+								&lt;/div&gt;
+								&lt;div class="line"&gt;&lt;/div&gt;
+							&lt;/section&gt;
+							&lt;!-- End Date 
+							=============================================== --&gt;</pre>
+
+						<p>Given this example, you can select all the code between start comment (<em>Hero</em>) and end comment (<em>End Hero</em>), then copy/cut and paste between other sections.</p>
+					</div>
+				</div>
+
+				<div class="spacer"></div>
+
+				<div class="row">
+					<div class="span3">
+						<h3>Navigation</h3>
+						<hr>
+					</div>
+					<div class="span9">
+						<p>Main navigation can be static, the first element on the page, or fixed, always visibile in the upper part of your screen. By default the main navigation is static, and can be set to always visible by adding a class to the body tag inside the HTML file.</p>
+						<pre class="brush: html">
+							&lt;body class="fixed-nav"&gt;</pre>
+					</div>
+				</div>
+				
+				<div class="spacer"></div>
+
+				<div class="row">
+					<div class="span3">
+						<h3>Content</h3>
+						<hr>
+					</div>
+					<div class="span9">
+						<p>Changing the content is very simple, you can search for the text of the template you want to edit, inside the HTML file, and replace it with your own text.</p>
+					</div>
+				</div>
+
+				<div class="spacer"></div>
+				
+				<div class="row">
+					<div class="span3">
+						<h3>Fonts</h3>
+						<hr>
+					</div>
+					<div class="span9">
+						<p>The template uses entirely <a target="_blank" href="http://www.google.com/webfonts">Google Web Fonts</a>, you have the flexibility to change the font in no time and  you have 600+ fonts at your disposal.</p>
+						<p>To change the font:</p>
+						<ol>
+							<li>Head over <a target="_blank" href="http://www.google.com/webfonts">Google Web Fonts</a> list.</li>
+							<li>Choose your font and click on <span>Quick-use</span>.</li>
+							<li>Search for <span>Add this code to your website</span> then copy the line of code that you have found, it'is something like the line below:
+								<pre class="brush: html">
+									&lt;link href='http://fonts.googleapis.com/css?family=Pirata+One' rel='stylesheet' type='text/css'&gt;</pre>
+							</li>
+							<li>Replace on <span>index.html</span>, line 35, with the line you just copied:
+								<pre class="brush: html">&lt;link href='http://fonts.googleapis.com/css?family=Handlee' rel='stylesheet' type='text/css'&gt;</pre>
+							</li>
+							<li>On <span>style.css</span> search for <span>'Handlee'</span> and replace with, given the example above, <span>'Pitata One'</span>.</li>
+						</ol>
+					</div>
+				</div>
+
+				<div class="spacer"></div>
+
+				<div class="row">	
+					<div class="span3">
+						<h3>Images</h3>
+						<hr>
+					</div>
+					<div class="span9">
+						<p>As you can see in the HTML files, images of the online preview have been replaced with placeholders, which contains the ideal size of the images. As an example the ceremony image have a width of 440 px and a height of 286 px. Exceptions are the large version of clickable images:</p>
+						<pre class="brush: html">
+							&lt;div class="span6"&gt;
+								&lt;div class="image-container"&gt;
+									&lt;a href="images/large-image.jpg" class="fancybox"&gt;
+										&lt;img src="images/specific-size-image.jpg" alt="Ceremony"&gt;
+									&lt;/a&gt;
+								&lt;/div&gt;
+							&lt;/div&gt;</pre>
+						<p>The large image in the link doesn't have a precise size but can be of any size.</p>
+					</div>
+				</div>
+
+				<div class="spacer"></div>
+
+				<div class="row">
+					<div class="span3">
+						<h3>Emails</h3>
+						<hr>
+					</div>
+					<div class="span9">
+						<p>To set up the contact form, you have to replace few default values on <span>send-mail.php</span> with your own.</p>
+						<pre class="brush: php">
+							/* ==============================================
+							Variables you can change
+							============================================== */
+
+							$mailto = 'email@website.com'; // Enter your mail addres here. 
+							$subject = 'The Big Day'; // Enter the subject here.
+
+							$error_message = 'Error sending your message'; // Message displayed if an error occurs
+							$success_message = 'Message Sent'; // Message displayed id the email has been sent successfully</pre>
+					</div>
+				</div>
+
+				<div class="spacer"></div>
+
+			</div>
+		</section>
+		<!-- End Content 
+		=============================================== -->
+
+		<!-- ==============================================
+		Footer
+		=============================================== -->
+		<section class="footer">
+			<div class="container">
+				<div class="row">
+					<div class="span12">
+						<p>Copyright &copy; 2013 by <a target="_blank" href="http://themeforest.net/user/G10v3">G10v3</a>. All rights reserved.</p>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!-- End Footer 
+		=============================================== -->
+
+		<script>
+			SyntaxHighlighter.all();
+		</script>
+
+	</body>
+</html>

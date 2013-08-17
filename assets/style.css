@@ -1,0 +1,139 @@
+/* ==============================================
+Resets
+============================================== */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+/* ==============================================
+General Styles
+============================================== */
+
+body {
+	background: url(footer-section-background.jpg) repeat;
+	font-size: 14px;
+	line-height: 24px;
+	color: #bebebe;
+	font-family: 'Handlee', Arial, sans-serif;
+}
+
+
+h1 {
+	font-size: 30px;
+	margin-bottom: 20px;
+	color: #7e0000;
+}
+
+h2 {
+	color: #666666;
+	font-size: 20px;
+	line-height: 30px;
+}
+
+h3 {
+	color: #333;
+	background: url(background-red-repeatable.png) repeat;
+	padding: 10px 30px;
+	display: inline-block;
+	margin-bottom: 20px;
+}
+
+a {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+a:hover {
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+p {
+	padding-bottom: 20px;
+}
+
+p span {
+	color: #00b3ff;
+}
+
+/* ==============================================
+Header
+============================================== */
+
+section.header {
+	padding-top: 50px;
+	padding-bottom: 50px;
+	background: none;
+	background: url(background.png) repeat;
+}
+
+
+/* ==============================================
+Templates
+============================================== */
+
+section.templates {
+	padding-top: 0px;
+	background: none;
+	padding-bottom: 30px;
+	background: url(background.png) repeat;
+}
+
+section.templates .span6 {
+	text-align: center !important;
+}
+
+section.templates .span6 a {
+	display: block;
+	padding-bottom: 10px;
+}
+
+/* ==============================================
+Footer
+============================================== */
+
+.footer {
+	padding-top: 50px;
+	padding-bottom: 30px;
+}

@@ -59,14 +59,14 @@
 			<div class="container">
 				<div class="row">
 					<div class="span6">
-						<a href="html/pre-wedding/index.php">
+						<a href="html/pre-wedding/index.html">
 							<img src="assets/pre-wedding.png" alt="Pre Wedding">
 						</a>
 						<br>
 						<h3>Pre Wedding</h3>
 					</div>
 					<div class="span6">
-						<a href="html/post-wedding/index.php">
+						<a href="html/post-wedding/index.html">
 							<img src="assets/post-wedding.png" alt="Post Wedding">
 						</a>
 						<br>
@@ -80,7 +80,7 @@
 			<div class="container">
 				<div class="row">
 					<div class="span12">
-						<p>Copyright &copy; 2013 by <a target="_blank" href="http://themeforest.net/user/G10v3">G10v3</a>. All rights reserved. - <a href="documentation/index.php">Documentation</a></p>
+						<p>Copyright &copy; 2013 by <a target="_blank" href="http://themeforest.net/user/G10v3">G10v3</a>. All rights reserved. - <a href="documentation/index.html">Documentation</a></p>
 					</div>
 				</div>
 			</div>

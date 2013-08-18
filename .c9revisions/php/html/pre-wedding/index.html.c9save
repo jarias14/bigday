@@ -105,3 +105,4 @@
 {"ts":1376827467984,"patch":[[{"diffs":[[0,"ert "],[-1,"your email"],[1,"number of guests"],[0,"\" cl"]],"start1":11805,"start2":11805,"length1":18,"length2":24}]],"length":13655,"saved":false}
 {"ts":1376827643134,"patch":[[{"diffs":[[0,"\" name=\""],[-1,"email"],[1,"guests"],[0,"\" value="]],"start1":11780,"start2":11780,"length1":21,"length2":22}]],"length":13656,"saved":false}
 {"ts":1376827674331,"patch":[[{"diffs":[[0,"ired"],[-1," email"],[0,"\">\r\n"]],"start1":11839,"start2":11839,"length1":14,"length2":8}]],"length":13650,"saved":false}
+{"ts":1376828547158,"patch":[[{"diffs":[[0,"\" name=\""],[-1,"guests"],[1,"email"],[0,"\" value="]],"start1":11780,"start2":11780,"length1":22,"length2":21},{"diffs":[[0," class=\"required"],[1," email"],[0,"\">\r\n\t\t\t\t\t\t\t</div"]],"start1":11826,"start2":11826,"length1":32,"length2":38}]],"length":13655,"saved":false}

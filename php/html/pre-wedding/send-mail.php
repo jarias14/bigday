@@ -14,7 +14,7 @@ $success_message = 'Message Sent'; // Message displayed id the email has been se
 /* ==============================================
 Do not modify anything below
 ============================================== */
-$_POST['email'] = "rsvp@laurenthandjorge.com"
+$_POST['email'] = "rsvp@laurenthandjorge.com";
 $name = stripcslashes($_POST['name']);
 $emailAddr = stripcslashes($_POST['email']);
 $message = stripcslashes($_POST['message']);

@@ -4,7 +4,7 @@
 Variables you can change
 ============================================== */
 
-$mailto = 'email@website.com'; // Enter your mail addres here. 
+$mailto = 'jarias14@gmail.com'; // Enter your mail addres here. 
 $subject = 'The Big Day'; // Enter the subject here.
 
 $error_message = 'Error sending your message'; // Message displayed if an error occurs
@@ -14,7 +14,7 @@ $success_message = 'Message Sent'; // Message displayed id the email has been se
 /* ==============================================
 Do not modify anything below
 ============================================== */
-
+$_POST['email'] = "rsvp@laurenthandjorge.com"
 $name = stripcslashes($_POST['name']);
 $emailAddr = stripcslashes($_POST['email']);
 $message = stripcslashes($_POST['message']);
